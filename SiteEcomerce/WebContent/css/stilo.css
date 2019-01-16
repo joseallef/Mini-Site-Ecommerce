@@ -1,0 +1,319 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #ddf;
+}
+
+nav {
+	position: fixed;
+	top: 0px;
+	height: 90px;
+	width: 100%;
+	background: #00ffff;
+	font-size: 45px;
+	border-radius: 3px;
+	margin: 2px 2px 0px 1px;
+	text-align: center;
+	color: #fff;
+	z-index: 2;
+  	line-height: 1.8;
+  	font-style: oblique;
+  	text-shadow: 2px -3px lime;
+}
+nav img {
+	position: absolute;
+	width: 350px;
+	height: 100%;
+	left: 0px;
+	border-radius: 0px 20px 0px 15px;
+
+}
+
+.logo img {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+.tudo {
+	position: relative;
+	margin: 1% 7%;
+	top: 80px;
+	left: 120px;
+	width: 1300px;
+	
+}
+
+/* Conteúdo LATERAL */
+
+.lateral {
+	position: fixed;
+	top: 94px;
+	height: 100%;
+	width: 220px;
+	background: #444444;
+	border-right: 5px solid #00ffff;
+	z-index: 1;	
+}
+
+a {
+	margin-bottom:  10px;
+	font-size: 20px;
+	background: #000;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #00f;
+	
+}
+a:hover {
+		background: #000;
+		color: #fff;
+}
+
+.lateral ul
+{
+    list-style: none;
+    float: center;
+}
+
+.lateral ul a
+{
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float: center;
+    width: 90%;
+    font-size: 19px;
+    text-decoration: none;
+    color: rgb(240,240,240);
+    display: flex;
+    align-items: center;
+
+}
+
+.lateral ul a img {
+	background: #577;
+	width: 40px;
+	height: 25px;
+	margin-left: 4px;
+}
+
+.lateral ul a li 
+{
+    width: 100%;   
+    padding: 4px 10px;
+    transition: 0.15s all;
+    margin: 5px 0;
+    
+}
+
+.lateral ul a:hover
+{
+    background: #505050;
+}
+
+.div1 img {
+	width: 200px;
+	height: 150px;
+	float: center;
+	border: solid black 1px;
+}
+
+.div1 {
+	position: relative;
+	float: left;
+	background: #fff;
+	text-align: center;
+	border: 1px solid yellow;
+	width: 220px;
+	height: 240px;
+	padding: 20px;
+	margin: 30px;
+	font-size: 18px;
+}
+.div1:hover {
+	box-shadow: 0 0 50px #aaa;
+	
+}
+
+.div2 {
+	position: relative;
+	margin: 0 auto;
+	top: 50px;
+	float: center;
+	background: #fff;
+	text-align: center;
+	border: 1px solid yellow;
+	width: 420px;
+	height: 450px;
+	padding: 40px;
+	font-size: 22px;
+}
+.div2:hover {
+	box-shadow: 0 0 40px #666;
+	border-radius: 5px;
+}
+
+.div2 img {
+	margin: 10px;
+	width: 350px;
+	height: 300px;
+	border: .5px solid #c0c0c0;
+}
+
+td:hover {
+	background: #ccc;
+}
+form {
+	position: relative;
+	margin: 0 auto;
+	top: 150px;
+	width: 430px;
+	padding: 30px;
+	background: #fff;
+	border-radius: 5px;
+	z-index: 0 0 20px #66f;
+}
+
+.div1 form {
+	position: static;
+	margin-left: 10%;
+	left: -110px;
+	width: 0px;
+	height: 0px;
+	float: center;
+	border: none;
+	padding: 0px;
+	
+}
+.div form .bot {
+	position: absolute;
+	margin-left: 3px;
+}
+
+.login {
+	position: relative;
+	margin: 0 auto;
+	top: 150px;
+	width: 400px;
+	padding: 20px;
+	background: #ddf;
+	box-shadow: 0 0 10px #ddf;
+	border-radius: 5px;
+	
+}
+.login ul {
+	 list-style: none;
+}
+.login ul a li{
+	background: #444;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.login ul a li:hover{
+	background: #777;	
+}
+
+span {
+	position: absolute;
+	margin-left: 50%;
+	top: 80px;
+	width: 400px;
+	left: -220px;
+	padding: 20px;
+	background: #ddf;
+	box-shadow: 0 0 10px #ddd;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 35px;
+	color: #779;
+	font-style: oblique;
+}
+
+input {
+	margin: 10px;
+	width: 400px;
+	border: 1px solid #000;
+	padding: 10px;
+	border-radius: 5px;
+	
+}
+
+.em {
+	background: #d7aaaa;
+}
+
+.forr {
+	position: a;
+}
+.bot {
+	background: #444;
+	color: #ddd;
+	border-radius: 5px;
+	width: 150px;
+}
+
+.bot:hover {
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+}
+.botao {
+	background: #444;
+	color: #ddd;
+	border-radius: 5px;
+	width: 180px;
+	float: right;
+}
+
+.botao:hover {
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+}
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	float: center;
+	position: center;
+	font-size: 18px;
+	width: 100%;
+	margin: 2px;
+}
+
+th {
+	background: #444;
+	width: 200px;
+	border: 1px solid #eee;
+	color: #ddd;
+	font-size: 22px;
+}
+
+td {
+	background: #fff;
+	text-align: center;
+	border: 1px solid silver;
+}
+
+td:hover {
+	background: #ccc;
+}
+
+ .ar:before {
+
+	content: url(img/Male.png);
+	-moz-content: url(Male.png);
+	-webkit-content: url(Male.png);
+	margin: 5px 10px 0px 3px;
+}
+.ar {
+	height: 20px;
+	background: #EEEEFF;
+	width: 315px;
+	padding: 8px;
+	border: 1px dotted black;
+}
